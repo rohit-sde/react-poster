@@ -1,11 +1,7 @@
-import Post from "./components/Post";
+import Post from './components/Post';
+
 function App() {
-    return (
-        <div>
-            <h1>Hello World!</h1>
-            <Post />
-        </div>
-    );
+  return <Post />;
 }
 
 export default App;
